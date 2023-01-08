@@ -45,7 +45,7 @@ const App = () => {
 			<h1>Задачи на день: {tasks.length}</h1>
 			<CustomInput addToDo={addToDo} tasks={tasks} setTasks={setTasks} />
 			<Row>
-				<Col offset={8} span={8}>
+				<Col offset={5} span={14}>
 					<List
 						 size="small"
 						 bordered

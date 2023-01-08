@@ -14,9 +14,9 @@ const CustomInput = ({ addToDo }) => {
 		<>
 			<Row>
 				<Tooltip placement="right" title="Нажмите enter">
-					<Col offset={8} span={8}>
+					<Col offset={5} span={14}>
 						<Input
-							maxLength={50	}
+							maxLength={10}
 							placeholder="Enter text"
 							onPressEnter={() => handleClick()}
 							
